@@ -1,5 +1,4 @@
-# .dotfiles_m1mac
-My .dotfiles for m1 MacBook
+# My .dotfiles for m1 MacBook
 
 ## Including following settings.
 - Alacritty(terminal manager)
