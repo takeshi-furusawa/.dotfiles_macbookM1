@@ -1,15 +1,14 @@
 # My .dotfiles for M1 MacBook
 
 ## Including the following settings.
-- Alacritty(terminal manager)
+- Alacritty(terminal)
 - lf(file manager on terminal)
-- tmux + header scripts(battery status,wifi status). I don't have Copyright these shell scripts.
+- tmux + header scripts(battery status,wifi status). I don't have Copyright about these shell scripts.
 - zsh
 - vim
 - Brew bundle list
 
 ### memo
-``
 
 - QuickLook plugin (qlmanage)
 ```
