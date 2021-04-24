@@ -21,6 +21,6 @@ $ xattr -d -r com.apple.quarantine ~/Library/QuickLook
 
 - Brew bundle list
 ```
-brew bundle dump --describe
+$ brew bundle dump --describe
 ```
 
