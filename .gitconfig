@@ -1,0 +1,14 @@
+[user]
+name = takeshi
+email = 50539678+takeshi-furusawa@users.noreply.github.com
+[core]
+ignorecase = false
+quotepath = false
+precomposeunicode = true
+[merge]
+conflictStyle = diff3
+[color]
+ui = true
+diff = auto
+status = auto
+branch = auto

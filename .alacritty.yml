@@ -1,0 +1,59 @@
+env:
+  TERM: alacritty
+shell:
+  program: zsh
+  args:
+    - --login 
+    - -c
+    - "/opt/homebrew/bin/tmux a || /opt/homebrew/bin/tmux"
+window:
+  decorations: full
+  startup_mode: Fullscreen
+# Colors (based on Solarized Dark)
+# You should better change zsh-autosuggestions color
+#       ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+#       typeset -g ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=22'
+colors:
+   cursor:
+     text: '#fefff2'
+     cursor: '#f0cc09'
+   selection:
+     text: '#ffffff'
+     background: '#008888'
+   primary:
+     background: '0x000000'
+     foreground: '0xffffff'
+   normal:
+     black:   '0x073642' # base02
+     red:     '0xfc4744' # red
+     green:   '0x859900' # green
+     yellow:  '0xe6e610' # yellow
+     blue:    '0x268bd2' # blue
+     magenta: '0xd33682' # magenta
+     cyan:    '0x2aa198' # cyan
+     white:   '0xeee8d5' # base2
+   bright:
+     black:   '0x002b36' # base03
+     red:     '0xcb4b16' # orange
+     green:   '0x586e75' # base01
+     yellow:  '0xe6e610' # yellow
+     blue:    '0x839496' # base0
+     magenta: '0x6c71c4' # violet
+     cyan:    '0x93a1a1' # base1
+     white:   '0xfdf6e3' # base3
+# Font(MesloLGS NF for oh-my-zsh Powerline10k)
+font:
+  size: 12
+  normal:
+    family: 'MesloLGS NF'
+    style: Regular
+  bold:
+    family: 'MesloLGS NF'
+    style: Bold
+  italic:
+    family: 'MesloLGS NF'
+    style: Italic
+  bold_italic:
+    family: 'MesloLGS NF'
+    style: Bold Italic
+background_opacity: 1.00
