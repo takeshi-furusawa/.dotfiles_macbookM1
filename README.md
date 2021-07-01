@@ -24,3 +24,16 @@ $ xattr -d -r com.apple.quarantine ~/Library/QuickLook
 $ brew bundle dump --describe
 ```
 
+
+### Set default shell to  brew's zsh.
+    
+`$ sudo vi /etc/shells`
+    
+- add
+/opt/homebrew/bin/zsh
+      
+`$ chsh -c /opt/homebrew/bin/zsh`
+
+- check
+
+`$ echo $SHELL'
