@@ -8,6 +8,22 @@
 - vim
 - Brew bundle list
 
+## Before preparing
+- install xcode-commanline-tool
+- install homeBrew
+- install zsh from brew
+- install oh-my-zsh
+- set up tp p10k configration.
+
+-  Set default shell to  brew's zsh.  
+`$ sudo vi /etc/shells`
+- append into this file 
+`/opt/homebrew/bin/zsh`
+- chsh      
+`$ chsh -c /opt/homebrew/bin/zsh`
+- check
+`$ echo $SHELL`
+
 ### memo
 
 - QuickLook plugin (qlmanage)
@@ -24,16 +40,3 @@ $ xattr -d -r com.apple.quarantine ~/Library/QuickLook
 $ brew bundle dump --describe
 ```
 
-
-### Set default shell to  brew's zsh.
-    
-`$ sudo vi /etc/shells`
-    
-- add
-/opt/homebrew/bin/zsh
-      
-`$ chsh -c /opt/homebrew/bin/zsh`
-
-- check
-
-`$ echo $SHELL'
