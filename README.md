@@ -8,7 +8,7 @@
 - vim
 - Brew bundle list
 
-## Before preparing
+## First preparing
 - install xcode-commanline-tool
 - install homeBrew
 - install zsh from brew
