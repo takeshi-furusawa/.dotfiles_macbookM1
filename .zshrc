@@ -83,8 +83,11 @@ export zsh="/opt/homebrew/bin/zsh"
 #------------------------------------------------------------------
 # my alias
 alias vi='vim'
+
 alias ls='ls -aG'
-alias ll='ls -latrGa'
+#alias ll='ls -latrGa'
+alias ll="exa -l -a -g --icons"
+
 alias h='history'
 alias update="source ~/.zshrc"
 alias updatetmux="tmux source-file ~/.tmux.conf"

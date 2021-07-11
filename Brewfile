@@ -14,6 +14,8 @@ brew "awscli"
 brew "cask"
 # Disk Usage/Free Utility - a better 'df' alternative
 brew "duf"
+# Modern replacement for 'ls'
+brew "exa"
 # TIFF library and utilities
 brew "libtiff"
 # Command-line outline and bitmap font editor/converter
