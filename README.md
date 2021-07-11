@@ -39,4 +39,3 @@ $ xattr -d -r com.apple.quarantine ~/Library/QuickLook
 ```
 $ brew bundle dump --describe
 ```
-

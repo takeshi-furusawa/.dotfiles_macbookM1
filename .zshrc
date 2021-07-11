@@ -37,7 +37,9 @@ plugins=(
 #     cfd(cd finder's directory)
 
 # for zsh-completions
-autoload -U compinit && compinit
+#autoload -U compinit && compinit
+autoload -Uz compinit
+compinit
 
 ###########################################################################
 # READ HERE!!!
@@ -101,3 +103,5 @@ function op() {
 }
 
 
+export PATH="/opt/homebrew/opt/icu4c/bin:$PATH"
+export PATH="/opt/homebrew/opt/icu4c/sbin:$PATH"

@@ -15,10 +15,10 @@ Plugin 'vim-airline/vim-airline-themes'
 Plugin 'scrooloose/nerdtree'
 Plugin 'scrooloose/syntastic'
 Plugin 'altercation/vim-colors-solarized'
-Plugin 'elzr/vim-json'
 Plugin 'nvie/vim-flake8'
 Plugin 'moll/vim-node'
 Plugin 'leafgarland/typescript-vim'
+"Plugin 'elzr/vim-json'
 
 call vundle#end()
 filetype plugin indent on
