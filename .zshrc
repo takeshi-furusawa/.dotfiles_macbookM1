@@ -87,6 +87,7 @@ alias vi='vim'
 #alias ll='ls -latrGa'
 alias ls="exa -a -snew --icons"
 alias ll="exa -l -a -g -snew --icons"
+alias lt="ll --tree --level=3"
 alias h='history'
 alias update="source ~/.zshrc"
 alias updatetmux="tmux source-file ~/.tmux.conf"
