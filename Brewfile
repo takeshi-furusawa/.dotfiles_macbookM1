@@ -3,6 +3,7 @@ tap "homebrew/cask"
 tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
+tap "homebrew/services"
 tap "romkatv/powerlevel10k"
 tap "sanemat/font"
 # Cryptography and SSL/TLS Toolkit
@@ -11,10 +12,6 @@ brew "openssl@1.1"
 brew "awscli"
 # Emacs dependency management
 brew "cask"
-# C library implementing the SSH2 protocol
-brew "libssh2"
-# Get a file from an HTTP, HTTPS or FTP server
-brew "curl"
 # Disk Usage/Free Utility - a better 'df' alternative
 brew "duf"
 # TIFF library and utilities
@@ -33,6 +30,10 @@ brew "highlight"
 brew "htop"
 # Terminal file manager
 brew "lf"
+# C library implementing the SSH2 protocol
+brew "libssh2"
+# Network Kanji code conversion Filter (NKF)
+brew "nkf"
 # Port scanning utility for large networks
 brew "nmap"
 # Platform built on V8 to build network applications
@@ -45,6 +46,8 @@ brew "p7zip"
 brew "pipenv"
 # Python version management
 brew "pyenv"
+# Pyenv plugin to manage virtualenv
+brew "pyenv-virtualenv"
 # Reattach process (e.g., tmux) to background
 brew "reattach-to-user-namespace"
 # Source-code syntax highlighter
@@ -83,34 +86,24 @@ brew "romkatv/powerlevel10k/powerlevel10k"
 cask "alfred"
 # App to measure storage read/write performance
 cask "amorphousdiskmark"
-# Inspect application bundles
-cask "apparency"
 # Application uninstaller
 cask "appcleaner"
 # Tool to flash OS images to SD cards & USB drives
 cask "balenaetcher"
-# Utility to create and modify archives
-cask "betterzip"
 # Web browser focusing on privacy
 cask "brave-browser"
 # GUI app for Homebrew
 cask "cakebrew"
 # Clipboard extension app
 cask "clipy"
-# Two-panel file manager
-cask "commander-one"
-# Tool for file comparison and merging text-like files
-cask "comparemerge"
 # App for note taking, organizing, task lists, and archiving
 cask "evernote"
 # Font editor and converter for outline and bitmap fonts
 cask "fontforge"
-# Run Google Keep in the menu bar
-cask "keep"
 # Tool to prevent the system from going into sleep mode
 cask "keepingyouawake"
-# Monitor microphone activity
-cask "micro-sniff"
+# Meet, chat, call, and collaborate in just one place
+cask "microsoft-teams"
 # Cloud storage client
 cask "onedrive"
 cask "provisionql"
@@ -127,19 +120,18 @@ cask "quicklook-json"
 cask "quicklookase"
 # Move and resize windows using keyboard shortcuts or snap areas
 cask "rectangle"
+# AppleScript Quick Look plugin
 cask "scriptql"
 # Instant messaging application focusing on security
 cask "signal"
 # Application for inspecting installer packages
 cask "suspicious-package"
+# Unpacks archive files
+cask "the-unarchiver"
 # Open-source code editor
 cask "visual-studio-code"
 # Multimedia player
 cask "vlc"
 cask "webpquicklook"
-# Compatibility layer to run Windows applications
-cask "wine-devel"
 # Network protocol analyzer
 cask "wireshark"
-# Open-source version of the X.Org X Window System
-cask "xquartz"
