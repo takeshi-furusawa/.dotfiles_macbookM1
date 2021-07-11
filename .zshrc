@@ -86,7 +86,7 @@ alias vi='vim'
 
 alias ls='ls -aG'
 #alias ll='ls -latrGa'
-alias ll="exa -l -a -g --icons"
+alias ll="exa -l -a -g -snew --icons"
 
 alias h='history'
 alias update="source ~/.zshrc"
