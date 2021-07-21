@@ -108,3 +108,6 @@ set hlsearch
 set hidden
 set cursorline
 set nosmartindent
+
+set rtp+=/opt/homebrew/opt/fzf
+

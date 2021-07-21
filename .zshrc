@@ -105,6 +105,12 @@ function op() {
     fi
 }
 
+# file serch for vi
+fvi() {
+  local file
+  file=$(find . | fzf)
+  vi "$file"
+}
 
 export PATH="/opt/homebrew/opt/icu4c/bin:$PATH"
 export PATH="/opt/homebrew/opt/icu4c/sbin:$PATH"

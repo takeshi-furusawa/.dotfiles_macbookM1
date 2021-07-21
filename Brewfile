@@ -20,6 +20,8 @@ brew "exa"
 brew "libtiff"
 # Command-line outline and bitmap font editor/converter
 brew "fontforge"
+# Command-line fuzzy finder written in Go
+brew "fzf"
 # Perl compatible regular expressions library with a new API
 brew "pcre2"
 # Distributed revision control system
@@ -44,6 +46,8 @@ brew "node"
 brew "openjdk"
 # 7-Zip (high compression file archiver) implementation
 brew "p7zip"
+# Swiss-army knife of markup format conversion
+brew "pandoc"
 # Python dependency management tool
 brew "pipenv"
 # Python version management
@@ -88,6 +92,8 @@ brew "romkatv/powerlevel10k/powerlevel10k"
 cask "alfred"
 # App to measure storage read/write performance
 cask "amorphousdiskmark"
+# Inspect application bundles
+cask "apparency"
 # Application uninstaller
 cask "appcleaner"
 # Tool to flash OS images to SD cards & USB drives
@@ -130,6 +136,8 @@ cask "signal"
 cask "suspicious-package"
 # Unpacks archive files
 cask "the-unarchiver"
+# Configurable document editor that supports Markdown
+cask "typora"
 # Open-source code editor
 cask "visual-studio-code"
 # Multimedia player
@@ -137,3 +145,11 @@ cask "vlc"
 cask "webpquicklook"
 # Network protocol analyzer
 cask "wireshark"
+
+# Add GitHub support to git on the command-line ex.) """hub browse"""-> open github.com for current directory.
+brew "hub"
+
+# Text interface for Git repositories
+brew "tig"
+
+# commitizen "git cz" : "$ npm install -g commitizen" (NPM this not brew install but very hundy.: type "git cz" select commit comment!)
