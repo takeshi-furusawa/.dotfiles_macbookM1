@@ -152,4 +152,9 @@ brew "hub"
 # Text interface for Git repositories
 brew "tig"
 
-# commitizen "git cz" : "$ npm install -g commitizen" (NPM this not brew install but very hundy.: type "git cz" select commit comment!)
+# commitizen "git cz" : (NPM this not brew install but very hundy.: type "git cz" select commit comment!)
+#$ npm install -g commitizen 
+#$ npm install -g cz-conventional-changelog
+#$ echo '{ "path": "cz-conventional-changelog" }' > ~/.czrc
+
+
