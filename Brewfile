@@ -136,8 +136,6 @@ cask "signal"
 cask "suspicious-package"
 # Unpacks archive files
 cask "the-unarchiver"
-# Configurable document editor that supports Markdown
-cask "typora"
 # Open-source code editor
 cask "visual-studio-code"
 # Multimedia player
@@ -145,6 +143,9 @@ cask "vlc"
 cask "webpquicklook"
 # Network protocol analyzer
 cask "wireshark"
+
+# Configurable document editor that supports Markdown
+cask "typora"
 
 # Add GitHub support to git on the command-line ex.) """hub browse"""-> open github.com for current directory.
 brew "hub"
