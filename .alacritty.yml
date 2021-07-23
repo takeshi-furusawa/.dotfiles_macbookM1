@@ -1,7 +1,7 @@
 env:
   TERM: alacritty
 shell:
-  program: zsh
+  program: /opt/homebrew/bin/zsh
   args:
     - --login 
     - -c
