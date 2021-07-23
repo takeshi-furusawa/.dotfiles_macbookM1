@@ -10,6 +10,7 @@ export ZSH="/Users/takeshi/.oh-my-zsh"
 ZSH_THEME="powerlevel10k/powerlevel10k"
 HIST_STAMPS="yyyy-mm-dd"
 
+alias zsh='/opt/homebrew/bin/zsh'
 #^^^^^^^^^^^^^^^^^^^
 # PROXY setting (changed by './networkselect.sh |ConnectMe|VPN|HOME')
 #source ~/PROXY_CLEAR.sh
@@ -37,13 +38,11 @@ plugins=(
 #     cfd(cd finder's directory)
 
 # for zsh-completions
-#autoload -U compinit && compinit
-autoload -Uz compinit
-compinit
+autoload -U compinit && compinit
 
 ###########################################################################
 # READ HERE!!!
-source $ZSH/oh-my-zsh.sh
+source ~/.oh-my-zsh/oh-my-zsh.sh
 ###########################################################################
 
 #------------------------------------------------------------------------------
@@ -77,9 +76,6 @@ export PATH="/opt/homebrew/lib/python3.9/site-packages:$PATH"
 export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
 export CPPFLAGS="-I/opt/homebrew/opt/openjdk/include"
 
-# zsh
-export zsh="/opt/homebrew/bin/zsh"
-
 #------------------------------------------------------------------
 # my alias
 alias vi='vim'
@@ -91,7 +87,6 @@ alias lt="ll --tree --level=3"
 alias h='history'
 alias update="source ~/.zshrc"
 alias updatetmux="tmux source-file ~/.tmux.conf"
-alias cdpytestdata='cd /var/folders/zs/rbwx8qrj57s9l6972bnx1m6c0000gq/T/pytest-of-takeshi.furusawa/pytest-current'
 
 # quick -look command line
 alias ql='qlmanage -p "$@" >& /dev/null'
@@ -103,13 +98,6 @@ function op() {
     else
         open "$@"
     fi
-}
-
-# file serch for vi
-fvi() {
-  local file
-  file=$(find . | fzf)
-  vi "$file"
 }
 
 export PATH="/opt/homebrew/opt/icu4c/bin:$PATH"
