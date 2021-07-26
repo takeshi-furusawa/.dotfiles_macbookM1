@@ -16,12 +16,6 @@ brew "cask"
 brew "duf"
 # Modern replacement for 'ls'
 brew "exa"
-# TIFF library and utilities
-brew "libtiff"
-# Command-line outline and bitmap font editor/converter
-brew "fontforge"
-# Command-line fuzzy finder written in Go
-brew "fzf"
 # Perl compatible regular expressions library with a new API
 brew "pcre2"
 # Distributed revision control system
@@ -32,10 +26,14 @@ brew "gnu-sed"
 brew "highlight"
 # Improved top (interactive process viewer)
 brew "htop"
+# Add GitHub support to git on the command-line
+brew "hub"
 # Terminal file manager
 brew "lf"
 # C library implementing the SSH2 protocol
 brew "libssh2"
+# TIFF library and utilities
+brew "libtiff"
 # Network Kanji code conversion Filter (NKF)
 brew "nkf"
 # Port scanning utility for large networks
@@ -58,6 +56,8 @@ brew "pyenv-virtualenv"
 brew "reattach-to-user-namespace"
 # Source-code syntax highlighter
 brew "source-highlight"
+# Text interface for Git repositories
+brew "tig"
 # Terminal multiplexer
 brew "tmux"
 # Display directories as trees (with optional color/HTML output)
@@ -106,8 +106,6 @@ cask "cakebrew"
 cask "clipy"
 # App for note taking, organizing, task lists, and archiving
 cask "evernote"
-# Font editor and converter for outline and bitmap fonts
-cask "fontforge"
 # Tool to prevent the system from going into sleep mode
 cask "keepingyouawake"
 # Meet, chat, call, and collaborate in just one place
@@ -130,12 +128,16 @@ cask "quicklookase"
 cask "rectangle"
 # AppleScript Quick Look plugin
 cask "scriptql"
+# Tool to reverse the direction of scrolling
+cask "scroll-reverser"
 # Instant messaging application focusing on security
 cask "signal"
 # Application for inspecting installer packages
 cask "suspicious-package"
 # Unpacks archive files
 cask "the-unarchiver"
+# Configurable document editor that supports Markdown
+cask "typora"
 # Open-source code editor
 cask "visual-studio-code"
 # Multimedia player
@@ -143,19 +145,3 @@ cask "vlc"
 cask "webpquicklook"
 # Network protocol analyzer
 cask "wireshark"
-
-# Configurable document editor that supports Markdown
-cask "typora"
-
-# Add GitHub support to git on the command-line ex.) """hub browse"""-> open github.com for current directory.
-brew "hub"
-
-# Text interface for Git repositories
-brew "tig"
-
-# commitizen "git cz" : (NPM this not brew install but very hundy.: type "git cz" select commit comment!)
-#$ npm install -g commitizen 
-#$ npm install -g cz-conventional-changelog
-#$ echo '{ "path": "cz-conventional-changelog" }' > ~/.czrc
-
-
