@@ -18,7 +18,7 @@ Plugin 'altercation/vim-colors-solarized'
 Plugin 'nvie/vim-flake8'
 Plugin 'moll/vim-node'
 Plugin 'leafgarland/typescript-vim'
-"Plugin 'elzr/vim-json'
+" Plugin 'chriskempson/base16-vim'
 
 call vundle#end()
 filetype plugin indent on
@@ -110,4 +110,9 @@ set cursorline
 set nosmartindent
 
 set rtp+=/opt/homebrew/opt/fzf
+
+"if filereadable(expand("~/.vimrc_background"))
+"  let base16colorspace=256          " Remove this line if not necessary
+"  source ~/.vimrc_background
+"endif
 

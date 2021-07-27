@@ -16,6 +16,15 @@ alias zsh='/opt/homebrew/bin/zsh'
 #source ~/PROXY_CLEAR.sh
 #^^^^^^^^^^^^^^^^^^^
 
+# ----------------------------------------------
+# Alacritty color settings
+# ----------------------------------------------
+COLOR_node="nord.yaml"
+COLOR_material="material_theme_mod.yaml"
+alias colorNode="alacritty-colorscheme -V apply $COLOR_node"
+alias colorMate="alacritty-colorscheme -V apply $COLOR_material"
+alias toggle="alacritty-colorscheme -V toggle  $COLOR_node $COLOR_material"
+
 ##########################################################################
 # Plugin
 ##########################################################################
