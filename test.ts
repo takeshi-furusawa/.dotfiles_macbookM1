@@ -2,11 +2,17 @@ type Note =  {
   _id: string,
   contents: string,
   createdAt: number,
-  updateAt: number
+  updatedAt: number
 }
 
 const note: Note = {
   _id : '1',
   contents : 'afdasdf',
-  crea 
+  createdAt: 1,
+  updatedAt: 2
 }
+
+var i = note.
+
+var math =  Math
+var i = math.

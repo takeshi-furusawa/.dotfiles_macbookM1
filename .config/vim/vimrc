@@ -6,25 +6,22 @@ if &compatible
 endif
 
 set runtimepath+=~/.vim/dein/repos/github.com/Shougo/dein.vim
-if dein#load_state('~/.vim/dein')
-  call dein#begin('~/.vim/dein')
+
+call dein#begin('~/.vim/dein')
+
   call dein#add('~/.vim/dein/repos/github.com/Shougo/dein.vim')
 
   call dein#add('airblade/vim-gitgutter')
   call dein#add('vim-airline/vim-airline')
   call dein#add('vim-airline/vim-airline-themes')
-  call dein#add('scrooloose/nerdtree')
-  call dein#add('scrooloose/syntastic')
-  call dein#add('altercation/vim-colors-solarized')
-  call dein#add('nvie/vim-flake8')
-  call dein#add('moll/vim-node')
-  call dein#add('leafgarland/typescript-vim')
-  
-  call dein#add('neoclide/coc.nvim', { 'merged': 0, 'rev': 'release' })
 
-  call dein#end()
-  call dein#save_state()
-endif
+  call dein#add('leafgarland/typescript-vim')
+" call dein#add('scrooloose/nerdtree')
+" call dein#add('scrooloose/syntastic')
+" call dein#add('moll/vim-node')
+" call dein#add('neoclide/coc.nvim', { 'merged': 0, 'rev': 'release' })
+
+call dein#end()
 
 filetype plugin indent on
 syntax enable
@@ -38,9 +35,9 @@ endif
 " --------------------------------------------------------------------------------
 " NERDTree
 " --------------------------------------------------------------------------------
-nnoremap <leader>n :NERDTreeFocus<CR>
-nnoremap <C-n> :NERDTree<CR>
-nnoremap <C-t> :NERDTreeToggle<CR>
+"nnoremap <leader>n :NERDTreeFocus<CR>
+"nnoremap <C-n> :NERDTree<CR>
+"nnoremap <C-t> :NERDTreeToggle<CR>
 
 " tab move
 "nnoremap gt :tabnext
@@ -124,3 +121,9 @@ set rtp+=/opt/homebrew/opt/fzf
 "  source ~/.vimrc_background
 "endif
 
+" ----------------------------------------------------------------------------------------------------------
+" coc.nvim settings
+" ----------------------------------------------------------------------------------------------------------
+" Use tab for trigger completion with characters ahead and navigate.
+" NOTE: Use command ':verbose imap <tab>' to make sure tab is not mapped by
+" other plugin before putting this into your config.
