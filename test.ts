@@ -9,10 +9,12 @@ const note: Note = {
   _id : '1',
   contents : 'afdasdf',
   createdAt: 1,
-  updatedAt: 2
+  updatedAt: 2,
 }
 
-var i = note.
-
+var i = note.contents
+console.log(i)
 var math =  Math
-var i = math.
+
+console.log(math.abs(1))
+
