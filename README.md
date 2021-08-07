@@ -1,6 +1,6 @@
 # My .dotfiles for M1 MacBook
 
-## How to install this .dotfiles to your enviroment.
+## How to install these .dotfiles into your enviroment.
 
 - cd $HOME
 
@@ -10,7 +10,7 @@
 
   
 
-- Use "stow": (This tool makes symbolink links into your home directory)
+- Use "GNU Stow command": (This tool makes symbolic links into your home directory)
 
 - ex.) $ stow alacritty
 
@@ -18,19 +18,18 @@
 
 ## Including the following settings.
 
-- Alacritty(terminal)
+- Brew's Bundle list
 
-- tmux + header scripts(battery status,wifi status). I don't have Copyright about these shell scripts.
+- zsh (settings)
+
+- Alacritty(fastest terminal emulater settings)
+
+- tmux + header scripts(battery status,wifi status). I forgot who has Copyright about these shell scripts.
 
 - lf(file manager on terminal)
 
 - vim
 
-- zsh
-
-- Brew's Bundle list
-
-  
 
 ## First preparing
 
