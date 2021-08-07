@@ -56,14 +56,14 @@ brew "pyenv-virtualenv"
 brew "reattach-to-user-namespace"
 # Source-code syntax highlighter
 brew "source-highlight"
+# Organize software neatly under a single directory tree (e.g. /usr/local)
+brew "stow"
 # Text interface for Git repositories
 brew "tig"
 # Terminal multiplexer
 brew "tmux"
 # Display directories as trees (with optional color/HTML output)
 brew "tree"
-# Language for application scale JavaScript development
-brew "typescript"
 # Vi 'workalike' with many additional features
 brew "vim"
 # Internet file retriever
