@@ -5,21 +5,28 @@ if &compatible
   set nocompatible               " Be iMproved
 endif
 
-set runtimepath+=~/.vim/dein/repos/github.com/Shougo/dein.vim
+" Required:
+set runtimepath+=~/.vim/bundles/repos/github.com/Shougo/dein.vim
 
-call dein#begin('~/.vim/dein')
+" Required:
+call dein#begin('~/.vim/bundles')
 
-  call dein#add('~/.vim/dein/repos/github.com/Shougo/dein.vim')
+" Let dein manage dein
+" Required:
+call dein#add('~/.vim/bundles/repos/github.com/Shougo/dein.vim')
 
-  call dein#add('airblade/vim-gitgutter')
-  call dein#add('vim-airline/vim-airline')
-  call dein#add('vim-airline/vim-airline-themes')
+" Add or remove your plugins here like this:
+"call dein#add('Shougo/neosnippet.vim')
+"call dein#add('Shougo/neosnippet-snippets')
+call dein#add('airblade/vim-gitgutter')
+call dein#add('itchyny/lightline.vim')
+call dein#add('leafgarland/typescript-vim')
 
-  call dein#add('leafgarland/typescript-vim')
-" call dein#add('scrooloose/nerdtree')
-" call dein#add('scrooloose/syntastic')
-" call dein#add('moll/vim-node')
-" call dein#add('neoclide/coc.nvim', { 'merged': 0, 'rev': 'release' })
+call dein#add('preservim/nerdtree')
+
+call dein#add('junegunn/fzf', {'build': './install --all'})
+call dein#add('junegunn/fzf.vim')
+call dein#add('sheerun/vim-polyglot')
 
 call dein#end()
 
@@ -30,11 +37,27 @@ syntax enable
 if dein#check_install()
   call dein#install()
 endif
+
+" :help dein-options
+
 " --------------------------------------------------------------------------------
+" for lightline.vim Plugin
+" --------------------------------------------------------------------------------
+let g:lightline = {
+      \ 'colorscheme': 'one',
+      \ }
 
 " --------------------------------------------------------------------------------
 " nnoremap
 " --------------------------------------------------------------------------------
+" NERDTree
+"  <C-o> open NERDTree
+nnoremap <silent> <C-o> :NERDTreeToggle<CR>
+
+" fzf
+nnoremap <silent> fzf :Files<CR>
+nnoremap <silent> ls :Buffers<CR>
+
 " cursol always center(search + concat line)
 nnoremap n nzzzv
 nnoremap N Nzzzv

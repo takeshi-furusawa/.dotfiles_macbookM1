@@ -111,3 +111,5 @@ function op() {
 
 export PATH="/opt/homebrew/opt/icu4c/bin:$PATH"
 export PATH="/opt/homebrew/opt/icu4c/sbin:$PATH"
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
