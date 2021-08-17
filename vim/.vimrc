@@ -50,13 +50,14 @@ let g:lightline = {
 " --------------------------------------------------------------------------------
 " nnoremap
 " --------------------------------------------------------------------------------
+" fzf
+"nnoremap <silent> fzf :Files<CR>
+nnoremap <C-t> :Files<CR>
+nnoremap <silent> ls :Buffers<CR>
+
 " NERDTree
 "  <C-o> open NERDTree
 nnoremap <silent> <C-o> :NERDTreeToggle<CR>
-
-" fzf
-nnoremap <silent> fzf :Files<CR>
-nnoremap <silent> ls :Buffers<CR>
 
 " cursol always center(search + concat line)
 nnoremap n nzzzv

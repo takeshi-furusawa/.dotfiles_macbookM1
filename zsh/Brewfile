@@ -62,6 +62,8 @@ brew "reattach-to-user-namespace"
 brew "source-highlight"
 # Organize software neatly under a single directory tree (e.g. /usr/local)
 brew "stow"
+# Code-search similar to ack
+brew "the_silver_searcher"
 # Text interface for Git repositories
 brew "tig"
 # Terminal multiplexer
