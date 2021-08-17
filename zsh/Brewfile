@@ -16,6 +16,8 @@ brew "cask"
 brew "duf"
 # Modern replacement for 'ls'
 brew "exa"
+# Command-line fuzzy finder written in Go
+brew "fzf"
 # Perl compatible regular expressions library with a new API
 brew "pcre2"
 # Distributed revision control system
@@ -34,6 +36,8 @@ brew "lf"
 brew "libssh2"
 # TIFF library and utilities
 brew "libtiff"
+# Fast, highly customisable system info script
+brew "neofetch"
 # Network Kanji code conversion Filter (NKF)
 brew "nkf"
 # Port scanning utility for large networks

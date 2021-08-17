@@ -112,4 +112,9 @@ function op() {
 export PATH="/opt/homebrew/opt/icu4c/bin:$PATH"
 export PATH="/opt/homebrew/opt/icu4c/sbin:$PATH"
 
+# ----------------------------------------------------------------------------------------------
+# fzf ( Amazing tool.... ) https://github.com/junegunn/fzf
+#    ex.) Esc-c, Ctrl + r, Ctrl + t, cd **<TAB>, kill -9 **<TAB>, cd **<TAB>
+#    in vim) fzf, ls
+# ----------------------------------------------------------------------------------------------
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
