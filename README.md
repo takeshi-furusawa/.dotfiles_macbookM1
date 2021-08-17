@@ -12,7 +12,7 @@
 
 - Use "GNU Stow command": (This tool makes symbolic links into your home directory)
 
-- ex.) $ stow alacritty
+- ex.) $ stow -v alacritty tmux vim
 
   
 
@@ -22,11 +22,11 @@
 
 - zsh (settings)
 
-- Alacritty(fastest terminal emulater settings)
+- Alacritty(fastest terminal emulater)
 
 - tmux + header scripts(battery status,wifi status). I forgot who has Copyright about these shell scripts.
 
-- lf(file manager on terminal)
+- fzf (with vimplugin) + ag  
 
 - vim
 
