@@ -60,7 +60,7 @@ source ~/.oh-my-zsh/oh-my-zsh.sh
 export LANG=ja_JP.UTF-8
 export APPS=/Applications
 export MANPATH="/usr/local/man:$MANPATH"
-export EDITOR='vim'
+export EDITOR='nvim'
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
@@ -87,7 +87,9 @@ export CPPFLAGS="-I/opt/homebrew/opt/openjdk/include"
 
 #------------------------------------------------------------------
 # my alias
-alias vi='vim'
+alias vi='nvim'
+alias vim='nvim'
+alias view='nvim -R'
 #alias ls='ls -aG'
 #alias ll='ls -latrGa'
 alias ls="exa -a -snew --icons"
@@ -96,6 +98,7 @@ alias lt="ll --tree --level=3"
 alias h='history'
 alias update="source ~/.zshrc"
 alias updatetmux="tmux source-file ~/.tmux.conf"
+alias ghub='hub browse'
 
 # quick -look command line
 alias ql='qlmanage -p "$@" >& /dev/null'
