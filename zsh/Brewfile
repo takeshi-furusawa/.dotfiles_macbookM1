@@ -6,6 +6,7 @@ tap "homebrew/core"
 tap "homebrew/services"
 tap "romkatv/powerlevel10k"
 tap "sanemat/font"
+tap "universal-ctags/universal-ctags"
 # Cryptography and SSL/TLS Toolkit
 brew "openssl@1.1"
 # Official Amazon AWS command-line interface
@@ -40,6 +41,8 @@ brew "libssh2"
 brew "libtiff"
 # Fast, highly customisable system info script
 brew "neofetch"
+# Ambitious Vim-fork focused on extensibility and agility
+brew "neovim"
 # Network Kanji code conversion Filter (NKF)
 brew "nkf"
 # Port scanning utility for large networks
@@ -98,6 +101,8 @@ brew "zsh-completions"
 brew "zsh-syntax-highlighting"
 # A Zsh Theme
 brew "romkatv/powerlevel10k/powerlevel10k"
+# Maintained ctags implementation
+brew "universal-ctags/universal-ctags/universal-ctags", args: ["HEAD"]
 # Application launcher and productivity software
 cask "alfred"
 # App to measure storage read/write performance
