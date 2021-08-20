@@ -70,7 +70,9 @@ set wildignore+=*/node_modules/*
 autocmd InsertLeave * set nopaste
 
 " Add asterisks in block comments
-set formatoptions+=r
+" set formatoptions+=r
+" set formatoptions-=ro
+au FileType * setlocal formatoptions-=ro
 
 "}}}
 
