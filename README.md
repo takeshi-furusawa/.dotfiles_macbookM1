@@ -28,7 +28,9 @@
 
 ---
 
-###  newovim
+###  nvim + fzf (with vimplugin) + ripgrep/ag  
+
+
 ```
 - ~/.config/nvim
 ├── plugged/
@@ -79,16 +81,6 @@ let g:lightline = {
       \ }
 ```
 
-" --------------------------------------------------------------------------------
-" for lightline.vim Plugin
-" --------------------------------------------------------------------------------
-let g:lightline = {
-      \ 'colorscheme': 'one',
-      \ }
-```
-- fzf (with vimplugin) + ripgrep/ag  
-
-- vim
 
 
 ## First preparing
