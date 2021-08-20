@@ -1,8 +1,8 @@
 " --------------------------------------------------------------------------------
-" Plugin manager(vim-plug) :
-
-"  Reload .vimrc and
-"     :PlugInstall/ :PlugClean /:PlugUpgrade
+" Plugin manager(vim-plug) :                                                         
+                                                         
+"  Reload .vimrc and                                                         
+"     :PlugInstall/ :PlugClean /:PlugUpgrade                                                         
 " --------------------------------------------------------------------------------
 "Specify a directory for plugins
 " - For Neovim: stdpath('data') . '/plugged'
@@ -12,18 +12,21 @@ call plug#begin('~/.config/nvim/plugged')
 
 Plug 'airblade/vim-gitgutter'
 Plug 'itchyny/lightline.vim'
-Plug 'leafgarland/typescript-vim'                                                                                       
+Plug 'leafgarland/typescript-vim'                                                                                
 
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
-Plug 'sheerun/vim-polyglot'
+Plug 'junegunn/fzf.vim'
 Plug 'airblade/vim-rooter'
 
+Plug 'sheerun/vim-polyglot'
+                                                                                                                 
 call plug#end()
-
+                                                         
+                                                         
 " --------------------------------------------------------------------------------
-" for lightline.vim Plugin
+" for lightline.vim Plugin                                                         
 " --------------------------------------------------------------------------------
-let g:lightline = {
-      \ 'colorscheme': 'one',
-      \ }
-
+let g:lightline = {                                                         
+      \ 'colorscheme': 'one',                                                         
+      \ }                                                         
+                                                         
