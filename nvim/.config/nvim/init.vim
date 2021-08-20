@@ -162,4 +162,4 @@ set exrc
 
 " Highlights "{{{
 " ---------------------------------------------------------------------
-
+source $HOME/.config/nvim/fzf.vim

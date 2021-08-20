@@ -4,13 +4,11 @@
 "  Reload .vimrc and
 "     :PlugInstall/ :PlugClean /:PlugUpgrade
 " --------------------------------------------------------------------------------
-" Specify a directory for plugins
+"Specify a directory for plugins
 " - For Neovim: stdpath('data') . '/plugged'
 " - Avoid using standard Vim directory names like 'plugin'
 
-if has("nvim")
-  let g:plug_home = stdpath('data') . '/plugged'
-endif
+let g:plug_home = stdpath('data') . '/plugged'
 
 call plug#begin()
 
