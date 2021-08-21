@@ -20,6 +20,12 @@
 
 - Brew's Bundle list
 
+- install font family(Hack Nerd Font Mono) not MesloLGS NF
+```
+brew tap homebrew/cask-fonts
+brew install --cask font-hack-nerd-font
+```
+
 - zsh (settings)
 
 - Alacritty(fastest terminal emulater)
