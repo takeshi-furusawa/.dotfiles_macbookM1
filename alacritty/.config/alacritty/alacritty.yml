@@ -41,21 +41,38 @@ window:
      #magenta: '0x6c71c4' # violet
      #cyan:    '0x93a1a1' # base1
      #white:   '0xfdf6e3' # base3
-# Font(MesloLGS NF for oh-my-zsh Powerline10k)
+
+# Font(Hack Nerd Font Mono)
 font:
-  size: 12
+  size: 13
   normal:
-    family: MesloLGS NF
+    family: Hack Nerd Font Mono
     style: Regular
   bold:
-    family: MesloLGS NF
+    family: Hack Nerd Font Mono
     style: Bold
   italic:
-    family: MesloLGS NF
+    family: Hack Nerd Font Mono
     style: Italic
   bold_italic:
-    family: MesloLGS NF
+    family: Hack Nerd Font Mono
     style: Bold Italic
+# Font(MesloLGS NF for oh-my-zsh Powerline10k)
+#font:
+# size: 12
+# normal:
+#   family: MesloLGS NF
+#   style: Regular
+# bold:
+#   family: MesloLGS NF
+#   style: Bold
+# italic:
+#   family: MesloLGS NF
+#   style: Italic
+# bold_italic:
+#   family: MesloLGS NF
+#   style: Bold Italic
+
 background_opacity: 1.00
 colors:
   # COLORSCHEME: nord.yaml
