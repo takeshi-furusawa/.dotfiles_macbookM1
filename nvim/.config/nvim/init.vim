@@ -1,6 +1,5 @@
 " Fundamentals "{{{
 " ---------------------------------------------------------------------
-
 " init autocmd
 autocmd!
 " set script encoding
@@ -73,7 +72,6 @@ autocmd InsertLeave * set nopaste
 " set formatoptions+=r
 " set formatoptions-=ro
 au FileType * setlocal formatoptions-=ro
-
 "}}}
 
 " Highlights "{{{
@@ -96,7 +94,6 @@ if &term =~ "screen"
   autocmd BufEnter * if bufname("") !~ "^?[A-Za-z0-9?]*://" | silent! exe '!echo -n "\ek[`hostname`:`basename $PWD`/`basename %`]\e\\"' | endif
   autocmd VimLeave * silent!  exe '!echo -n "\ek[`hostname`:`basename $PWD`]\e\\"'
 endif
-
 "}}}
 
 " File types "{{{
@@ -115,7 +112,6 @@ set suffixesadd=.js,.es,.jsx,.json,.css,.less,.sass,.styl,.php,.py,.md
 autocmd FileType coffee setlocal shiftwidth=2 tabstop=2
 autocmd FileType ruby setlocal shiftwidth=2 tabstop=2
 autocmd FileType yaml setlocal shiftwidth=2 tabstop=2
-
 "}}}
 
 " Imports "{{{
@@ -132,36 +128,10 @@ endif
 runtime ./maps.vim
 "}}}
 
-" Syntax theme "{{{
-" ---------------------------------------------------------------------
-
-" true color
-"if exists("&termguicolors") && exists("&winblend")
-" syntax enable
-" set termguicolors
-" set winblend=0
-" set wildoptions=pum
-" set pumblend=5
-" set background=dark
-" Use NeoSolarized
-" let g:neosolarized_termtrans=1
-" runtime ./colors/NeoSolarized.vim
-" colorscheme NeoSolarized
-"endif
-
 "colorscheme
 colorscheme elflord
 
-"}}}
-
-" Extras "{{{
 " ---------------------------------------------------------------------
 set exrc
-"}}}
-
-
-"}}}
-
-" Highlights "{{{
 " ---------------------------------------------------------------------
 source $HOME/.config/nvim/fzf.vim
