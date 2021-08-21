@@ -19,6 +19,7 @@ Plug 'junegunn/fzf.vim'
 Plug 'airblade/vim-rooter'
 
 Plug 'sheerun/vim-polyglot'
+Plug 'jiangmiao/auto-pairs'
                                                                                                                  
 call plug#end()
                                                          
