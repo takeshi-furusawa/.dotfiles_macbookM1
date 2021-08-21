@@ -19,7 +19,7 @@ nmap sv :vsplit<Return><C-w>w
 nmap ss :split<Return><C-w>w
 
 "" Move window
-tmap s<left> <C-w>h
+nmap s<left> <C-w>h
 nmap sh <C-w>h
 
 nmap s<up> <C-w>k
