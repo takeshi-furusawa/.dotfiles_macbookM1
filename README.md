@@ -38,13 +38,15 @@ brew install --cask font-hack-nerd-font
 
 
 ```
-- ~/.config/nvim
-├── plugged/
-├── maps.vim
-├── macos.vim
-├── init.vim
-├── plug.vim
-└── fzf.vim
+-❯ ll  ~/.config/nvim 
+init.vim
+maps.vim
+macos.vim
+fzf.vim
+plug.vim
+coc.vim
+colors/
+plugged/
 ```
 
 - vim-plug (install to zsh env)
@@ -96,8 +98,9 @@ let g:lightline = {
 
 ### coc(nvim inteli sence) 
 ```
-extensions@ ~/.dotfile/nvim/.config/coc/extensions
+extensions@ /Users/takeshi/.dotfile/nvim/.config/coc/extensions
 ├── coc-clangd@0.14.0
+├── coc-css@1.2.6
 ├── coc-go@0.13.3
 ├── coc-html@1.4.1
 ├── coc-json@1.3.6
@@ -105,8 +108,7 @@ extensions@ ~/.dotfile/nvim/.config/coc/extensions
 ├── coc-snippets@2.4.6
 ├── coc-tsserver@1.8.6
 ├── coc-vimlsp@0.12.3
-├── coc-yaml@1.4.2
-└── coc-css@
+└── coc-yaml@1.4.2
 ```
 ```
 ❯ ll nvim/.config/nvim/colors
