@@ -21,6 +21,9 @@ Plug 'airblade/vim-rooter'
 Plug 'sheerun/vim-polyglot'
 Plug 'jiangmiao/auto-pairs'
                                                                                                                  
+" Stable version of coc
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
 call plug#end()
                                                          
                                                          

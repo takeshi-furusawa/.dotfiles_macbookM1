@@ -54,6 +54,7 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
 ```
 
 - plug.vim
+
 ```
 " --------------------------------------------------------------------------------                               
 " Plugin manager(vim-plug) :
@@ -76,6 +77,12 @@ Plug 'junegunn/fzf.vim'
 Plug 'airblade/vim-rooter'
 
 Plug 'sheerun/vim-polyglot'
+Plug 'jiangmiao/auto-pairs'
+
+" Stable version of coc
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
+
 
 call plug#end()
 
@@ -87,7 +94,24 @@ let g:lightline = {
       \ }
 ```
 
-
+### coc(nvim inteli sence) 
+```
+extensions@ ~/.dotfile/nvim/.config/coc/extensions
+├── coc-clangd@0.14.0
+├── coc-go@0.13.3
+├── coc-html@1.4.1
+├── coc-json@1.3.6
+├── coc-pyright@1.1.164
+├── coc-snippets@2.4.6
+├── coc-tsserver@1.8.6
+├── coc-vimlsp@0.12.3
+├── coc-yaml@1.4.2
+└── css@3.0.0
+```
+```
+❯ ll nvim/.config/nvim/colors
+.rw-r--r-- 20k takeshi staff 28 8 22:30  hybrid.vim
+```
 
 ## First preparing
 

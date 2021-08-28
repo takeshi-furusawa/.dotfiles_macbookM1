@@ -78,6 +78,7 @@ export CPPFLAGS="-I/opt/homebrew/opt/ruby/include"
 export PKG_CONFIG_PATH="/opt/homebrew/opt/ruby/lib/pkgconfig"
 
 # python
+export PYENV_ROOT="/opt/homebrew/bin/"
 export PATH="/opt/homebrew/opt/python@3.9/libexec/bin:$PATH"
 export PATH="/opt/homebrew/lib/python3.9/site-packages:$PATH"
 

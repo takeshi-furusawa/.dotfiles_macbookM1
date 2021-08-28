@@ -25,7 +25,7 @@ set expandtab
 "let loaded_matchparen = 1
 set backupskip=/tmp/*,/private/tmp/*
 
-set paste
+"set paste
 set ignorecase
 set smartcase
 set noswapfile
@@ -129,9 +129,15 @@ runtime ./maps.vim
 "}}}
 
 "colorscheme
-colorscheme elflord
+colorscheme hybrid
+"colorscheme elflord
 
 " ---------------------------------------------------------------------
 set exrc
 " ---------------------------------------------------------------------
+" for fzf
 source $HOME/.config/nvim/fzf.vim
+
+" for coc
+source $HOME/.config/nvim/coc.vim
+
