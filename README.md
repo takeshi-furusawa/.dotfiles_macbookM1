@@ -106,7 +106,7 @@ extensions@ ~/.dotfile/nvim/.config/coc/extensions
 ├── coc-tsserver@1.8.6
 ├── coc-vimlsp@0.12.3
 ├── coc-yaml@1.4.2
-└── css@3.0.0
+└── coc-css@
 ```
 ```
 ❯ ll nvim/.config/nvim/colors
