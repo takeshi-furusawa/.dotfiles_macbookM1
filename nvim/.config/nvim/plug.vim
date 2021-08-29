@@ -16,7 +16,7 @@ Plug 'leafgarland/typescript-vim'
 
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
-Plug 'airblade/vim-rooter'
+"Plug 'airblade/vim-rooter'
 
 Plug 'sheerun/vim-polyglot'
 Plug 'jiangmiao/auto-pairs'
