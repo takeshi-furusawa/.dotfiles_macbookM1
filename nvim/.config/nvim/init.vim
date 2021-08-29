@@ -142,7 +142,7 @@ set exrc
 " for fzf
 source $HOME/.config/nvim/fzf.vim
 
-" for coc
+" for coc(viで:CocInstall hogehogで機能追加していく)
 source $HOME/.config/nvim/coc.vim
 
 " colorizer[lua]
