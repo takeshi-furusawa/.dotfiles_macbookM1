@@ -18,3 +18,4 @@ var math = Math
 
 console.log(math.abs(1))
 math.abs(x)
+

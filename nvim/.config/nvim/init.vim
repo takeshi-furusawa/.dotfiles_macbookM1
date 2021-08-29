@@ -7,6 +7,10 @@ scriptencoding utf-8
 " stop loading config if it's on tiny or small
 if !1 | finish | endif
 
+
+" if not set this value . you can not using colorizer Plugins.
+set termguicolors
+
 set nocompatible
 "set number
 syntax enable
@@ -140,4 +144,15 @@ source $HOME/.config/nvim/fzf.vim
 
 " for coc
 source $HOME/.config/nvim/coc.vim
+
+" colorizer[lua]
+"    https://www.youtube.com/watch?v=Rg5ccrQ7jbc&t=302s 
+"    https://www.chrisatmachine.com/Neovim/10-adding-color/?utm_source=pocket_mylist
+"    
+"        You can increment and decrement in vim with 
+"        c-a / c-x
+"
+"        just hover over a number in normal mode
+"        'r' also work great
+luafile $HOME/.config/nvim/lua/plug-colorizer.lua
 

@@ -24,9 +24,12 @@ Plug 'jiangmiao/auto-pairs'
 " Stable version of coc
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
+" colorizer[lua]
+Plug 'norcalli/nvim-colorizer.lua'
+
+
 call plug#end()
-                                                         
-                                                         
+
 " --------------------------------------------------------------------------------
 " for lightline.vim Plugin                                                         
 " --------------------------------------------------------------------------------

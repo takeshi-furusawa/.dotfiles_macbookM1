@@ -1,4 +1,5 @@
 .DS_Store
 node_modules/
 nvim/.config/nvim/plugged/coc.nvim
+nvim/.config/nvim/plugged/nvim-colorizer.lua
 

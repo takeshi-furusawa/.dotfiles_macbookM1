@@ -94,6 +94,13 @@ call plug#end()
 let g:lightline = {
       \ 'colorscheme': 'one',
       \ }
+
+```
+#8F6fa1
+rgb(68, 146, 230)
+rgb(7%, 77%, 46%)
+Blue
+
 ```
 
 ### coc(nvim inteli sence) 
