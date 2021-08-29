@@ -75,8 +75,13 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 ```
 
-### coc(nvim inteli sence) 
+### coc(nvim inteli sence)
+`:CocInstall coc-hogehoge`
 
+### nvim-colorizer
+```
+Ctrl + a, Ctrl+z
+```
 
 ### nvim color
 ```
