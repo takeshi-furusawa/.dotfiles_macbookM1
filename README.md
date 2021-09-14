@@ -87,3 +87,32 @@ Ctrl + a, Ctrl+z
 ```
 ❯ ll nvim/.config/nvim/colors/hybrid.vim
 ```
+
+---
+
+
+##  mission control display settings
+
+- Do fast
+
+```
+defaults write com.apple.dock expose-animation-duration -float 0.1　 && killall Dock
+```
+
+- restore to default value
+```
+defaults delete com.apple.dock expose-animation-duration && killall Dock
+```
+
+### Stop DS_Store creation to other network drive , USB drive etc.)
+```
+defaults write com.apple.desktopservices DSDontWriteNetworkStores true
+defaults write com.apple.desktopservices DSDontWriteUSBStores -bool true
+```
+
+## dock display settings
+
+``` 
+defaults write com.apple.dock autohide-delay -float 0.1 && killall Dock
+defaults write com.apple.dock autohide-time-modifier -float 0.1 && killall Dock 
+```
