@@ -73,7 +73,8 @@ font:
 #   family: MesloLGS NF
 #   style: Bold Italic
 
-background_opacity: 1.00
+#background_opacity: 1.00
+window.opacity: 1.00
 colors:
   # COLORSCHEME: nord.yaml
   # Default colors
