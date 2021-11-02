@@ -5,7 +5,7 @@ shell:
   args:
     - --login
     - -c
-    - /opt/homebrew/bin/tmux a || /opt/homebrew/bin/tmux
+    - /opt/homebrew/bin/tmux attach || /opt/homebrew/bin/tmux
 window:
   decorations: full
   startup_mode: Fullscreen
