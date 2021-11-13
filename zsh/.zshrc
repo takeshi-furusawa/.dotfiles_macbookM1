@@ -29,7 +29,7 @@ alias toggle="alacritty-colorscheme -V toggle  $COLOR_node $COLOR_material"
 # Plugin
 ##########################################################################
 plugins=(
-    osx
+    macos
     web-search
     git
     aws
