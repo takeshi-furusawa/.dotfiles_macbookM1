@@ -47,7 +47,7 @@ coc-go@>=0.13.3:
   resolved "https://registry.yarnpkg.com/coc-go/-/coc-go-0.13.3.tgz#9cb9ebf4f2d4c65a78cb30e29610991bdaa8483f"
   integrity sha512-JxAJD3z10ziO8CxgTUlguZp8uy1r6fo0pP+L4GeXKv+q12BHIxWXoAZdd158vAP/YCh0Yw4zBrij57Fg4wtVdg==
   dependencies:
-    node-fetch "^2.6.1"
+    node-fetch "^2.6.7"
     tslib "^2.0.0"
     vscode-languageserver-textdocument "^1.0.1"
     vscode-uri "^3.0.1"
@@ -222,9 +222,9 @@ ms@^2.1.1:
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.3.tgz#574c8138ce1d2b5861f0b44579dbadd60c6615b2"
   integrity sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==
 
-node-fetch@^2.6.1:
-  version "2.6.1"
-  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.1.tgz#045bd323631f76ed2e2b55573394416b639a0052"
+node-fetch@^2.6.7:
+  version "2.6.7"
+  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.7.tgz#045bd323631f76ed2e2b55573394416b639a0052"
   integrity sha512-V4aYg89jEoVRxRb2fJdAg8FHvI7cEyYdVAh94HH0UIK8oJxUfkjlDQN9RbMx+bEjP7+ggMiFRprSti032Oipxw==
 
 prettier@2.0.5:
