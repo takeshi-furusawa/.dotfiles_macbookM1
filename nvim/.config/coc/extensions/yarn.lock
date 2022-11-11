@@ -76,12 +76,12 @@ coc-lua@>=1.0.1:
     tslib "^2.1.0"
     which "^2.0.2"
 
-coc-pyright@^1.1.164:
-  version "1.1.164"
-  resolved "https://registry.yarnpkg.com/coc-pyright/-/coc-pyright-1.1.164.tgz#bf506ec3b9294060aa55fea00ad210f626be5e8c"
-  integrity sha512-7j+xroHX57poXJ9T+1OVYIx3NlTTKk6d0eoqLorv8BPFtjF0g+cTCLG67PNgpmfunBaF2g47aUoebli1x0fuKg==
+coc-pyright@>=1.1.164:
+  version "1.1.275"
+  resolved "https://registry.yarnpkg.com/coc-pyright/-/coc-pyright-1.1.275.tgz#a6b0ae40c475478cd53cc60247646bfe2dc0764f"
+  integrity sha512-yk7c8ELQixTwjXnG24htMTVoWb4C1UXazhs6MiQsUjjJKsuyFntodPtpvkEDyQ3rZKlx8LNCH5g/5N9W7hP8IA==
   dependencies:
-    pyright "^1.1.163"
+    pyright "^1.1.275"
 
 coc-snippets@>=2.4.6:
   version "2.4.6"
@@ -112,7 +112,7 @@ coc-yaml@^1.4.2:
 concat-map@0.0.1:
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/concat-map/-/concat-map-0.0.1.tgz#d8a96bd77fd68df7793a73036a3ba0d5405d477b"
-  integrity sha1-2Klr13/Wjfd5OnMDajug1UBdR3s=
+  integrity sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==
 
 debug@3.1.0:
   version "3.1.0"
@@ -186,9 +186,9 @@ jsonc-parser@^3.0.0:
   integrity sha512-fQzRfAbIBnR0IQvftw9FJveWiHp72Fg20giDrHz6TdfB12UH/uue0D3hm57UB5KgAVuniLMCaS8P1IMj9NR7cA==
 
 minimatch@^3.0.4:
-  version "3.0.4"
-  resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-3.0.4.tgz#5166e286457f03306064be5497e8dbb0c3d32083"
-  integrity sha512-yJHVQEhyqPLUTgt9B83PXu6W3rx4MvvHvSUvToogpwoGDOUQ+yDrR0HRot+yOCdCO7u4hX3pWft6kWBBcqh0UA==
+  version "3.1.2"
+  resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-3.1.2.tgz#19cd194bfd3e428f049a70817c038d89ab4be35b"
+  integrity sha512-J7p63hRiAjw1NDEww1W7i37+ByIrOWO5XQQAzZ3VOcL0PNybwpfmV/N05zFAzwQ9USyEcX6t3UO+K5aqBQOIHw==
   dependencies:
     brace-expansion "^1.1.7"
 
@@ -232,10 +232,10 @@ prettier@2.0.5:
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.0.5.tgz#d6d56282455243f2f92cc1716692c08aa31522d4"
   integrity sha512-7PtVymN48hGcO4fGjybyBSIWDsLU4H4XlvOHfq91pz9kkGlonzwTfYkaIEwiRg/dAJF9YlbsduBAgtYLi+8cFg==
 
-pyright@^1.1.163:
-  version "1.1.164"
-  resolved "https://registry.yarnpkg.com/pyright/-/pyright-1.1.164.tgz#6c8a68a64b01b0ead0032b104cc78a6bc0a1bc35"
-  integrity sha512-8c2tlvuMoRbjBRUXHskeKxGviOvLeCAM/WAS/SR0JAAaiFpUud+8CoKS+0tlDXT6RD7Ny2qyNhAwWhbN0wrDmg==
+pyright@^1.1.275:
+  version "1.1.279"
+  resolved "https://registry.yarnpkg.com/pyright/-/pyright-1.1.279.tgz#4b39cf7443ac8b26a559480d4bdf2644e11ab71e"
+  integrity sha512-Npj9xGdspkaCLUttTDYK6nSlw403vzFlfMXdwCVH8u6BvITnSH/pJHT+CyYvrILXNevRazgltT7JDbWg2VJEFA==
 
 request-light@^0.2.4:
   version "0.2.5"
